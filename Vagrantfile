@@ -17,6 +17,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         puppet.manifest_file = 'Vagrantfile.pp'
     end
 
-    config.vm.box = 'precise-puppet-dev-2014-02-13'
-    config.vm.box_url = 'http://repo.gsc.wustl.edu/dev/boxes/precise-puppet-dev-2014-02-13.box'
+    config.vm.box = 'genome/ubuntu-precise-puppet'
 end
